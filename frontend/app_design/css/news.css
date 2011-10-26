@@ -1,0 +1,88 @@
+/*          _\|/_
+            (0 0)
+--------o00o-{_}-o00o-----------------------
+
+UCREASITE v1.0 (2011)
+Universidad Creativa 2011 CSS Pagina UCREATIVA. 
+--------------------------------------------
+*/
+
+@charset "UTF-8";
+/* CSS Document */
+
+
+#news_blocks{
+	padding:4px;
+	}	
+
+	
+.see_more{
+	float:right;
+	color:#FF6633;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-decoration:none;
+	}	
+		
+.new_block{
+	border-bottom:solid 1px #ccc;
+	padding:8px;
+	padding-bottom:40px;
+	}	
+	
+#news_content_box{
+	border-left:solid 1px #ccc;
+	}	
+		
+.new_image{
+	float:right;
+	margin:10px;
+	}
+
+.news_description {
+    position: relative;
+    width: 430px;
+    height: 120px;
+    left:10px
+	}
+
+.new_title{
+	font-size:24px;
+	color:#69C;
+	margin:5px;
+	margin-right:15px;
+	}
+	
+.icon_new_tab{
+	background: url(../img/open.png);
+    cursor: pointer;
+    background-repeat:no-repeat;
+	position:relative;
+	width:auto;
+	padding-left:30px;
+	float:none;
+	margin-bottom:15px;
+	}	
+	
+#older_post{
+	background:#efefef;
+	position:relative;
+    margin:auto;
+	width:100%;
+	border-bottom:solid #ccc 1px;
+	text-align:center;
+	padding:10px;
+	color:#69C;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-decoration:none;
+	}
+		
+#icon_more_news{
+	background: url(../img/open.png);
+    cursor: pointer;
+    background-repeat:no-repeat;
+	position:relative;
+	width:120px;
+	height:30px;
+	padding-top:5px;
+	margin:auto;
+	}

@@ -1,0 +1,106 @@
+﻿/*          _\|/_
+            (0 0)
+--------o00o-{_}-o00o-----------------------
+
+UCREASITE v1.0 (2011)
+Universidad Creativa 2011 CSS Pagina UCREATIVA. 
+--------------------------------------------
+*/
+@charset "UTF-8";  
+
+
+/*header*/
+#header{
+	position:relative;
+	height:260px;
+	width:100%;
+	border:none;
+    overflow: hidden;
+    top: -20px;
+	}
+
+#login_box{
+	position:absolute;
+	background-color: #dcdcdc;
+	width:150px;
+	padding:5px;
+	padding-left:14px;
+	height:25px;
+	top:44px;
+	right:120px;
+	-webkit-box-shadow: 0px 5px 3px 0px #CCC;
+    -moz-box-shadow: 0px 5px 3px 0px #CCC;
+    box-shadow: 0px 5px 3px 0px #CCC;
+	}
+
+.user_login_icon{
+	position:relative;
+	width:25px;
+	height:25px;
+	float:left;
+    left:-5px;
+	}
+
+.user_name{
+	position:relative;
+	width:90px;
+	font-size:10px;
+    margin: auto;
+	text-decoration:none;
+	color: #333;
+    top:5px;
+    font-weight: bold;
+	}
+
+#contact_box{
+	position:absolute;
+	top:70px;
+	right:10px;
+	padding:2px;
+	padding-right:8px;
+    width:22px;
+	height:100px;
+	}
+
+.contact_icon{
+    position:relative;
+	margin:4px;
+	width:20px;
+	height:20px;
+	float:left;
+  }
+
+.contact_icon a:hover{
+    /*border-bottom: 5px solid;*/
+}
+
+#ucreativa_logo{
+	position:relative;
+	width:158px;
+	height:70px;
+	top:35px;
+	left:0px;
+	}
+
+#blog_title_base{
+   position: relative;
+   height: 100px;
+   width: 100%;
+   background: #EDEDED;
+   top: 50px;
+}
+
+#blog_title{
+   position: relative;
+   height: 100px;
+   width: 520px;
+   background: #6699CE;
+}
+
+#triangle{
+   position: absolute;
+   width: 42px;
+   height: 100px;
+   background: url(../img/triangulo.png);
+   left:520px;
+}

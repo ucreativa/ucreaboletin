@@ -1,0 +1,74 @@
+﻿
+/*          _\|/_
+            (0 0)
+--------o00o-{_}-o00o-----------------------
+
+UCREASITE v1.0 (2011)
+Universidad Creativa 2011 CSS Pagina UCREATIVA. 
+--------------------------------------------
+*/
+@charset "UTF-8";
+/* CSS Document */
+
+#footer{
+	position:relative;
+	text-align:center;
+	width:100%;
+	height:300px;
+	/*border:1px solid #ccc;*/
+	}
+	
+#links_box{
+	position:relative;
+	text-align:center;
+	width:100%;
+	height:65px;
+	border:0px solid #ccc;
+    overflow: hidden;
+}
+
+ #external_links_box_hover {
+	position:relative;
+	text-align:center;
+	width:100%;
+	height:60px;
+    top: -40px;
+
+	/*border:1px solid #C63;*/
+	}	
+	
+.external_link{
+	position:relative;
+	width:120px;         
+	height:60px;
+	/*border:1px solid #C63;*/
+	float:left;
+	margin:15px;
+    }	
+
+#site_map_link{
+	position:relative;
+	width:190px;
+	float:right;
+	margin-top:30px;
+	height:35px;
+	top:70px;
+	}
+
+#white_box{
+	position:relative;
+	width:100%;
+	top:-50px;
+	height:100px;
+	background: #fff;
+    /*border:1px solid #ccc;*/
+	}
+
+#credits{
+    color: #6A99CC;
+    font-size: 13px;
+    position: relative;
+    width: 700px;
+    margin: auto;
+    top:80px;
+}

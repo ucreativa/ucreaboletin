@@ -1,0 +1,93 @@
+/*          _\|/_
+            (0 0)
+--------o00o-{_}-o00o-----------------------
+
+UCREASITE v1.0 (2011)
+Universidad Creativa 2011 CSS Pagina UCREATIVA.
+--------------------------------------------
+*/
+
+
+
+@charset "UTF-8";  
+
+/*Body*/
+
+body{
+	/*background: #FFF url(../img/background.jpg) repeat-x;*/
+	font-family: "Century Gothic", Verdana, "Segoe UI","Arial", sans-serif;
+	}
+
+a,img {
+    outline: 0 none;
+    border: none;
+    }
+	
+#page{
+	position:relative;
+	width:800px;
+    top:-50px;
+	height:auto;
+	/*border:1px solid #eee;*/
+	margin:auto;
+	}
+	
+/* fuentes personalizadas*/
+	
+
+/*Estilos básicos*/
+
+h1,h2,h3,h4,h5{
+    font-family: "Century Gothic", Verdana, "Segoe UI","Arial", sans-serif;
+	font-size:24px;
+	color: #666;
+	}
+
+/*Estilos secundarios*/
+
+h6{
+	font-family: "Century Gothic", Verdana, "Segoe UI","Arial", sans-serif;
+	font-size:48px;
+	color:  #993;
+	}
+	
+#logo{
+	width: 100px;
+	height:40px;
+	top: 70px;
+	left: 480px;
+	position: relative;
+}
+
+
+	
+.flecha_menu{
+	color:#666
+}
+	
+#to_top{
+	position:fixed;
+	bottom:20px;
+	background: url(../img/top.png);
+	background-repeat:no-repeat;
+	width:37px;
+	height:35px;
+	right:20px;
+	}	
+	
+.see_more{
+	color: #333;
+	font-weight: bold;
+	font-size:12px;
+	text-decoration:none;
+	}
+
+.rss_icon{
+	position:absolute;
+	width:20px;
+	height:25px;
+	top:7px;
+	left:175px;
+    z-index:2;
+	}
+	

@@ -1,0 +1,4 @@
+<?php
+  require_once($_SERVER["DOCUMENT_ROOT"] . "/ucreadmin/global.php");
+  <?php include_once(__PLG_PATH . "/upload_files/example/index.php"); ?>
+?>

@@ -1,0 +1,76 @@
+﻿@charset 'UTF-8';
+/*
+ * jQuery File Upload Plugin CSS Example 5.0
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2010, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://creativecommons.org/licenses/MIT/
+ */
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  padding: 20px;
+}
+
+a {
+  color: #222;
+  font-size: 10px;
+}
+
+.files{
+  font-size: 11px;
+}
+
+.files td{
+    border-bottom: 0px solid #ccc;
+}
+
+.files tr:hover{
+    background: #ddd;
+}
+
+.fileupload-content {
+   position: relative;
+   top: -13px;
+}
+
+.form_data_box{
+    border: 1px solid #3399CC;
+    border-top: 30px solid #3399CC;
+    padding: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+	visibility: hidden;
+	position: fixed;
+	margin:auto;
+	top: 50px;
+    left: 150px;
+    width: 500px;
+    height: 350px;
+	background: #fff;
+	z-index:10;
+	box-shadow: 5px 5px 28px #222;
+	-webkit-box-shadow: 5px 5px 28px #222;
+	-moz-box-shadow: 5px 5px 28px #222;
+    color:#333;
+}
+
+.btn_data, .btn_data_edit{
+   background: #EEE center url(images/edit.png) no-repeat;
+   border: 1px solid #ccc;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   position: relative;
+   width: 27px;
+   height: 25px;
+}
+
+.btn_data:hover, .btn_data_edit:hover{
+   border: 1px solid #777;
+   cursor: pointer;
+}

@@ -1,0 +1,128 @@
+/*          _\|/_
+            (0 0)
+--------o00o-{_}-o00o-----------------------
+
+UCREASITE v1.0 (2011)
+Universidad Creativa 2011 CSS Pagina UCREATIVA. 
+--------------------------------------------
+*/
+
+@charset "UTF-8";
+/* CSS Document */
+
+#link_layer{
+ position:absolute;
+ top: 0px;
+ height: 298px;
+ width: 800px;
+ border: 0px solid #f00;
+ z-index:100;
+}
+
+.link_banner{
+   border: 0px solid #f00;
+}
+
+#link_arquitectura{
+ position:absolute;
+ height: 70px;
+ width: 50px;
+ left: 100px;
+ top: 20px;
+}
+
+#link_espacio{
+ position:absolute;
+ height: 70px;
+ width: 50px;
+ left: 170px;
+ top: 200px;
+}
+
+#link_medios{
+ position:absolute;
+ height: 70px;
+ width: 50px;
+ left: 192px;
+ top: 100px;
+}
+
+#link_dibujo{
+ position:absolute;
+ height: 70px;
+ width: 50px;
+ left: 222px;
+ top: 170px;
+}
+
+#link_animacion{
+ position:absolute;
+ height: 70px;
+ width: 50px;
+ left: 270px;
+ top: 205px;
+}
+
+#link_modas{
+ position:absolute;
+ height: 100px;
+ width: 100px;
+ left: 260px;
+ top: 10px;
+}
+
+#link_foto{
+ position:absolute;
+ height: 70px;
+ width: 50px;
+ left: 390px;
+ top: 80px;
+}
+
+#link_joyas{
+ position:absolute;
+ height: 70px;
+ width: 50px;
+ left: 380px;
+ top: 205px;
+}
+
+#link_textil{
+ position:absolute;
+ height: 70px;
+ width: 50px;
+ left: 470px;
+ top: 150px;
+}
+
+#link_web{
+ position:absolute;
+ height: 70px;
+ width: 50px;
+ left: 530px;
+ top: 180px;
+}
+
+#link_3d{
+ position:absolute;
+ height: 70px;
+ width: 50px;
+ left: 600px;
+ top: 115px;
+}
+
+#link_grafico{
+ position:absolute;
+ height: 70px;
+ width: 50px;
+ left: 640px;
+ top: 50px;
+}
+
+#link_publicidad{
+ position:absolute;
+ height: 70px;
+ width: 160px;
+ left: 450px;
+ top: 40px;
+}
